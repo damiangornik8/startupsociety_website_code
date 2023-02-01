@@ -1,0 +1,66 @@
+/*Container for the header*/
+.header{
+    width: 100%;
+    height: calc(2vh + 2vw);
+    background-color: #ffffff;
+    box-shadow: 10px 10px 24px -12px rgba(0,0,0,0.75);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    z-index: 1;
+}
+
+.headeroptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headeroptions li {
+    font-size: 15px;
+    white-space: nowrap;
+    padding: 1.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.headerimagediv{
+    margin-left: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+#headerlogo{
+    height: 100%;
+    width: auto;
+}
+
+.header ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.header ul li{
+    position: relative;
+}
+
+.header a{
+    color: #1c437b;
+    text-decoration: none;
+}
+
+.aux-flex{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
